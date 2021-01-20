@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="44952" started-at="2020-10-10T12:31:33 IST" finished-at="2020-10-10T12:32:18 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="44952" started-at="2020-10-10T12:31:33 IST" finished-at="2020-10-10T12:32:18 IST">
+      <class name="Acadamy.HomePage">
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:Acadamy.HomePage@865dd6]" name="initializeDriver" is-config="true" duration-ms="10426" started-at="2020-10-10T12:31:33 IST" finished-at="2020-10-10T12:31:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="baseHomePage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Acadamy.HomePage@865dd6]" name="baseHomePage" duration-ms="28161" started-at="2020-10-10T12:31:44 IST" data-provider="getData" finished-at="2020-10-10T12:32:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonristricted@qk.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Non Ristrickted User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseHomePage -->
+        <test-method status="PASS" signature="baseHomePage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Acadamy.HomePage@865dd6]" name="baseHomePage" duration-ms="5515" started-at="2020-10-10T12:32:12 IST" data-provider="getData" finished-at="2020-10-10T12:32:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricted@qk.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Restricted User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseHomePage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Acadamy.HomePage@865dd6]" name="tearDown" is-config="true" duration-ms="720" started-at="2020-10-10T12:32:17 IST" finished-at="2020-10-10T12:32:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Acadamy.HomePage -->
+    </test> <!-- Test -->
+    <test name="test1" duration-ms="43067" started-at="2020-10-10T12:31:33 IST" finished-at="2020-10-10T12:32:16 IST">
+      <class name="Acadamy.ValidateTitle">
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:Acadamy.ValidateTitle@72cde7cc]" name="initializeDriver" is-config="true" duration-ms="36483" started-at="2020-10-10T12:31:33 IST" finished-at="2020-10-10T12:32:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="FAIL" signature="validteTitle()[pri:0, instance:Acadamy.ValidateTitle@72cde7cc]" name="validteTitle" duration-ms="1537" started-at="2020-10-10T12:32:10 IST" finished-at="2020-10-10T12:32:11 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [COnTACT] but found [CONTACT]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [COnTACT] but found [CONTACT]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at Acadamy.ValidateTitle.validteTitle(ValidateTitle.java:35)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validteTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Acadamy.ValidateTitle@72cde7cc]" name="tearDown" is-config="true" duration-ms="2879" started-at="2020-10-10T12:32:13 IST" finished-at="2020-10-10T12:32:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Acadamy.ValidateTitle -->
+    </test> <!-- test1 -->
+    <test name="test2" duration-ms="43067" started-at="2020-10-10T12:31:33 IST" finished-at="2020-10-10T12:32:16 IST">
+      <class name="Acadamy.ValidateNavigationBar">
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:Acadamy.ValidateNavigationBar@41e1e210]" name="initializeDriver" is-config="true" duration-ms="36602" started-at="2020-10-10T12:31:33 IST" finished-at="2020-10-10T12:32:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="navigationBR()[pri:0, instance:Acadamy.ValidateNavigationBar@41e1e210]" name="navigationBR" duration-ms="1562" started-at="2020-10-10T12:32:10 IST" finished-at="2020-10-10T12:32:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigationBR -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Acadamy.ValidateNavigationBar@41e1e210]" name="tearDown" is-config="true" duration-ms="4820" started-at="2020-10-10T12:32:11 IST" finished-at="2020-10-10T12:32:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Acadamy.ValidateNavigationBar -->
+    </test> <!-- test2 -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="73973" started-at="2020-10-06T15:54:26 IST" finished-at="2020-10-06T15:55:40 IST">
+    <groups>
+    </groups>
+    <test name="test2" duration-ms="64758" started-at="2020-10-06T15:54:26 IST" finished-at="2020-10-06T15:55:30 IST">
+      <class name="Acadamy.ValidateNavigationBar">
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:Acadamy.ValidateNavigationBar@2133814f]" name="initializeDriver" is-config="true" duration-ms="49691" started-at="2020-10-06T15:54:26 IST" finished-at="2020-10-06T15:55:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:Acadamy.ValidateNavigationBar@2133814f]" name="basePageNavigation" duration-ms="8807" started-at="2020-10-06T15:55:15 IST" finished-at="2020-10-06T15:55:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Acadamy.ValidateNavigationBar@2133814f]" name="tearDown" is-config="true" duration-ms="6227" started-at="2020-10-06T15:55:24 IST" finished-at="2020-10-06T15:55:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Acadamy.ValidateNavigationBar -->
+    </test> <!-- test2 -->
+    <test name="test1" duration-ms="64398" started-at="2020-10-06T15:54:26 IST" finished-at="2020-10-06T15:55:30 IST">
+      <class name="Acadamy.ValidateTitle">
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:Acadamy.ValidateTitle@6a01e23]" name="initializeDriver" is-config="true" duration-ms="56672" started-at="2020-10-06T15:54:26 IST" finished-at="2020-10-06T15:55:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:Acadamy.ValidateTitle@6a01e23]" name="basePageNavigation" duration-ms="2379" started-at="2020-10-06T15:55:22 IST" finished-at="2020-10-06T15:55:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Acadamy.ValidateTitle@6a01e23]" name="tearDown" is-config="true" duration-ms="5330" started-at="2020-10-06T15:55:25 IST" finished-at="2020-10-06T15:55:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Acadamy.ValidateTitle -->
+    </test> <!-- test1 -->
+    <test name="Test" duration-ms="73973" started-at="2020-10-06T15:54:26 IST" finished-at="2020-10-06T15:55:40 IST">
+      <class name="Acadamy.HomePage">
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:Acadamy.HomePage@60611244]" name="initializeDriver" is-config="true" duration-ms="28023" started-at="2020-10-06T15:54:26 IST" finished-at="2020-10-06T15:54:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Acadamy.HomePage@60611244]" name="basePageNavigation" duration-ms="40142" started-at="2020-10-06T15:54:54 IST" data-provider="getData" finished-at="2020-10-06T15:55:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonristricted@qk.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Non Ristrickted User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Acadamy.HomePage@60611244]" name="basePageNavigation" duration-ms="4917" started-at="2020-10-06T15:55:34 IST" data-provider="getData" finished-at="2020-10-06T15:55:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricted@qk.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Restricted User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Acadamy.HomePage@60611244]" name="tearDown" is-config="true" duration-ms="804" started-at="2020-10-06T15:55:39 IST" finished-at="2020-10-06T15:55:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Acadamy.HomePage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
